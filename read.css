@@ -1,0 +1,76 @@
+body
+{
+  text-align:justify;
+  color: aliceblue;
+  background:linear-gradient(to bottom,#009688,white);
+background-size: cover;
+background-position:center ;
+height:700vh;
+border:10px solid black;
+padding: 10px ;
+}
+
+h2
+{ 
+  font-size: 40px;
+  text-align: center;
+  color:white;
+  font-weight: 1000;
+}
+p
+{
+font-size: 35px;
+  word-spacing:5px;
+  white-space:wrap;
+  text-indent:10%;
+}
+@media screen and (max-width:770px)
+{
+  p
+  {
+    font-size :15px ;
+    font-weight: 500;
+    word-spacing: 5px ;
+  }
+  
+}
+
+button
+  {
+    padding: 15px 30px;
+    background:aliceblue;
+    color: black;
+    font-weight: 500;
+    font-size :30px;
+  }
+  @media screen and (max-width :770px)
+  {
+    button
+    {
+      font-size:15px ;
+      padding:7px 15px;
+      
+    }
+  }
+#moreText
+{
+  display: none;
+  
+}
+@media screen and(max-width:770px)
+{
+  body{
+    flex-basis :100%;
+    margin:10px 30px ;
+    font-size: 20px;
+    }
+  h2
+  {
+    flex-basis: 100%;
+  }
+p
+{
+  font-size: 18px;
+  word-spacing: 5px;
+}
+}
